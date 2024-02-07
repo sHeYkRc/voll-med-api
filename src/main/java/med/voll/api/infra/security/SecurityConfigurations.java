@@ -27,8 +27,8 @@ public class SecurityConfigurations {
         return httpSecurity.csrf().disable().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)//tipo de seccion
                 .and().authorizeHttpRequests()
-                .requestMatchers(HttpMethod.POST, "/Login")
-                .permitAll()
+                .requestMatchers("/swagger-ui.html","/v3/api-docs/**","/swagger-ui/**").permitAll()
+                .requestMatchers(HttpMethod.POST, "/Login").permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
