@@ -64,6 +64,9 @@ API REST desarollada en Java con Spring Boot para la gestión de una clínica me
 
 > Opcional: puedes compilar el proyecto con Maven (`mvn clean install`) si prefieres usar la terminal, pero no es obligatorio para desarrollo en IDE.
 
+---
 
+## Estado
 
+Proyecto realizado como parte de la formación Oracle ONE Next Education. Repositorio en evolución.
   
